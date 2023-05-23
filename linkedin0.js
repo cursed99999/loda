@@ -1,6 +1,6 @@
 import fs from "fs";
 
-const regex = /marketing manager/g;
+const regex = /Social Media/g;
 
 for (let index = 1; index <= 12; index++) {
   const fileName = `bye${index}.txt`;
