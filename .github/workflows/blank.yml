@@ -31,7 +31,7 @@ jobs:
         uses: LasyIsLazy/github-upload-action@v0.2.0
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
-          file-path: zedData.txt
+          file-path: zedData1.txt
           owner: tammanaaps
           repo: noshit
           branch-name: main
