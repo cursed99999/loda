@@ -29,8 +29,8 @@ async function processInputFile() {
       })
       .join("\n");
 
-    await fs.appendFile(`zedData.txt`, outputData, "utf8");
-    console.log(`saved! zedData`);
+    await fs.appendFile(`zedData1.txt`, outputData, "utf8");
+    console.log(`saved! zedData1`);
   } catch (err) {
     console.error("An error occurred:", err);
   }
