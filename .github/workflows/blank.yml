@@ -32,7 +32,7 @@ jobs:
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           file-path: zedData1.txt
-          owner: cursed1000
+          owner: cursed99999
           repo: loda
           branch-name: main
           commit-message: "zedData updated"
